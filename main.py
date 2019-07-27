@@ -3,7 +3,7 @@ from telegram.ext import Updater, CommandHandler, Filters, MessageHandler
 import urllib.request
 import json
 
-OWNER ='@Valery_Selikhov'
+OWNER ='@NAME_BOT'
 TOKEN_FILE = 'token.txt'
 token = Path(TOKEN_FILE).read_text().strip()
 
